@@ -37,9 +37,9 @@ Hints:
 function Header(){
   return(
     <header>
-        <nav>
+        <nav className='nav'>
             <img src='https://blog.atomikod.com/wp-content/uploads/2020/12/reactjs.jpg' alt='' width="100px"/>
-            <ul className=''>
+            <ul className='nav-items'>
               <li>Pricing</li>
               <li>About</li>
               <li>Contact</li>
@@ -69,15 +69,17 @@ function MainContent(){
     </ul>
   </div>
   )
-}
+};
 
 function Page(){
-  <div>
+  return (
+    <div>
     <Header />
     <MainContent />
     <Footer />
   </div>
-}
+  )
+};
 
 ReactDOM.render(<Page />,document.getElementById("root"));
 
