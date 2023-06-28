@@ -17,7 +17,10 @@ Hints:
  */
 
 const page = (
-  <h1>Testing</h1>
+  <div>
+    <img src='./react-logo.jpg' alt='' width="40px"/>
+    <h1>Fun facts about React</h1>
+  </div>
 );
 
 ReactDOM.render(page,document.getElementById("root"));
