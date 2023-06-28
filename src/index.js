@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header';
-import Footer from './Footer';
-import MainContent from './MainContent';
+import App from './App';
 
 /*
 Challenge: Starting from scratch, build and render the 
@@ -36,17 +34,6 @@ Hints:
 //ReactDOM.render(page,document.getElementById("root"));
 
 //--------------------Componentes 
-
-function App(){
-  return (
-    <div>
-    <Header />
-    <MainContent />
-    <Footer />
-  </div>
-  )
-};
-
 ReactDOM.render(<App />,document.getElementById("root"));
 
 
