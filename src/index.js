@@ -16,12 +16,39 @@ Hints:
   just like in HTML. In the slide, I have it set to 40px
  */
 
-const page = (
+/* const page = (
   <div>
     <img src='https://blog.atomikod.com/wp-content/uploads/2020/12/reactjs.jpg' alt='' width="100px"/>
     <h1>Fun facts about React</h1>
+    <ul>
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100K stars on GitHub</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
+    </ul>
   </div>
-);
+); */
 
-ReactDOM.render(page,document.getElementById("root"));
+//ReactDOM.render(page,document.getElementById("root"));
+
+//--------------------Componentes 
+function TemporaryName(){
+  return(
+    <div>
+    <img src='https://blog.atomikod.com/wp-content/uploads/2020/12/reactjs.jpg' alt='' width="100px"/>
+    <h1>Fun facts about React</h1>
+    <ul>
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100K stars on GitHub</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
+    </ul>
+  </div>
+  )
+}
+
+ReactDOM.render(<TemporaryName/>,document.getElementById("root"));
+
 
