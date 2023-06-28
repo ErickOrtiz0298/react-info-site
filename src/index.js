@@ -18,7 +18,7 @@ Hints:
 
 const page = (
   <div>
-    <img src='./react-logo.jpg' alt='' width="40px"/>
+    <img src='https://blog.atomikod.com/wp-content/uploads/2020/12/reactjs.jpg' alt='' width="100px"/>
     <h1>Fun facts about React</h1>
   </div>
 );
