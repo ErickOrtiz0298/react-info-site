@@ -34,20 +34,6 @@ Hints:
 
 //--------------------Componentes 
 
-function Header(){
-  return(
-    <header>
-      <nav className="nav">
-        <img src='https://blog.atomikod.com/wp-content/uploads/2020/12/reactjs.jpg' alt='' width="40px"/>
-        <ul className="nav-items">
-              <li>Pricing</li>
-              <li>About</li>
-              <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
-  )
-};
 
 function Footer(){
   return(

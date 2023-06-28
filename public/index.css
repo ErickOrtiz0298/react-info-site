@@ -9,6 +9,9 @@
   display: flex;
 }
 
+.nav-logo{
+  width:100px;
+}
 .nav-items > li{
   padding: 10px;
 }
