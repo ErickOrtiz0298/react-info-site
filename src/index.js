@@ -33,22 +33,52 @@ Hints:
 //ReactDOM.render(page,document.getElementById("root"));
 
 //--------------------Componentes 
-function TemporaryName(){
+
+function Header(){
+  return(
+    <header>
+        <nav>
+            <img src='https://blog.atomikod.com/wp-content/uploads/2020/12/reactjs.jpg' alt='' width="100px"/>
+            <ul className=''>
+              <li>Pricing</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+            <h1>Reasons I'm excited to learn React</h1>
+        </nav>
+    </header>
+)
+};
+
+function Footer(){
+  return(
+  <footer>
+      <small>© 2023 Ortiz development. All rights reserved.</small>
+  </footer>
+
+  )
+};
+
+function MainContent(){
   return(
     <div>
-    <img src='https://blog.atomikod.com/wp-content/uploads/2020/12/reactjs.jpg' alt='' width="100px"/>
-    <h1>Fun facts about React</h1>
+    <h1>Reasons I'm excited to learn React</h1>
     <ul>
-            <li>Was first released in 2013</li>
-            <li>Was originally created by Jordan Walke</li>
-            <li>Has well over 100K stars on GitHub</li>
-            <li>Is maintained by Facebook</li>
-            <li>Powers thousands of enterprise apps, including mobile apps</li>
+      <li>It's a popular library, so I'll be able to fit in with the cool kids!</li>
+      <li>I'm more likely to get a job as a developer if I know React</li>
     </ul>
   </div>
   )
 }
 
-ReactDOM.render(<TemporaryName/>,document.getElementById("root"));
+function Page(){
+  <div>
+    <Header />
+    <MainContent />
+    <Footer />
+  </div>
+}
+
+ReactDOM.render(<Page />,document.getElementById("root"));
 
 
