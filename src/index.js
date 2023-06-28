@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+
 
 
 /*
@@ -21,7 +20,6 @@ Hints:
 
 const page = (
   <h1>Testing</h1>
-
 );
 
 ReactDOM.render(page,document.getElementById("root"));
